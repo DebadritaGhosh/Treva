@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Redirect, Route, Switch } from 'react-router-dom';
 //importing Style(GLOBAL)
 import './App.css';
 //importing Components
@@ -19,7 +19,7 @@ const App = () => {
         <Route exact path="/" component={Home} />
         <Route exact path="/holidays" component={Holidays} />
         <Route exact path="/contact" component={Contact} />
-        <Route component={Error} />
+        <Redirect to="/" />
       </Switch>
       <Footer />
     </>
