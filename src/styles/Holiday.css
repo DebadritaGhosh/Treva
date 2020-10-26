@@ -1,0 +1,19 @@
+.holidayContainer{
+    min-height: 90vh;
+    background-color: #F0F9FF;
+    display: flex;
+    flex-direction: column;
+}
+.holidayContainer h1{
+    flex: 1 1 auto;
+    margin: auto;
+    padding: 2rem;
+}
+.holidayCards{
+    flex: 1 1 40rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

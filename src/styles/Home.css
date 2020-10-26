@@ -1,0 +1,90 @@
+.container{
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F0F9FF;
+  }
+  .leftColumn {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: unset;
+    padding-left: 10rem;
+    padding-right: 5rem;
+    justify-content: center;
+  
+  }
+  .leftColumn__buttonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+  }
+  button {
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    border: none;
+    cursor: pointer;
+  }
+  .buttonContainer__button2{
+    background-color: #fe55bf;
+    color: #FFFFFF;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 2.5rem;
+    border-bottom-left-radius: 2.5rem;
+    box-shadow: 0px 10px 10px rgba(89, 88, 166, 0.3), 0px 20px 20px rgba(254, 85, 191, 0.4);
+  }
+  .buttonContainer__button2:hover{
+    background-color: #e35bb0;
+    font-size: 2.03rem;
+  }
+  .buttonContainer__button1{
+    background-color: #5958a6;
+    color: #FFFFFF;
+    border-bottom-right-radius: 1.5rem;
+    border-top-right-radius: 2.5rem;
+    border-bottom-left-radius: 2.5rem;
+    box-shadow: 0px 10px 10px  rgba(254, 85, 191, 0.3), 0px 20px 20px rgba(89, 88, 166, 0.4) ;
+  }
+  .left p {
+    background-color: inherit;
+    color:  #fe55bf;
+  }
+  .right{
+    flex: 1 1 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .right img{
+    width: 90%;
+    height: 90%;
+  }  
+  #services{
+    min-height: 100vh;
+    background-color: #F0F9FF;
+    padding: 3rem;
+  }
+  .benefits__head {
+    padding: 3rem;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .benefits__head h3{
+    padding: 1rem;
+    color:  #fe55bf;
+  }
+    .cardParent{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer__icon{
+      height: 3rem;
+      width: 3rem;
+  }

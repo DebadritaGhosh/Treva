@@ -1,25 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Route, Switch } from 'react-router-dom';
+//importing Style(GLOBAL)
 import './App.css';
+//importing Components
+import NavBar from './Components/NavBar';
+import Footer from './Components/Footer';
+// importing Screens
+import Home from './Screens/Home';
+import Holidays from './Screens/Holidays';
+import Contact from './Screens/Contact';
+import Error from './Screens/Error';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/holidays" component={Holidays} />
+        <Route exact path="/contact" component={Contact} />
+        <Route component={Error} />
+      </Switch>
+      <Footer />
+    </>
   );
 }
 

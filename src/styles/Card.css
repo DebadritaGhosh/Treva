@@ -1,0 +1,35 @@
+.card {
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem 5rem;
+    flex: 1 1 35rem;
+    padding: 1rem;
+    /* border-bottom-right-radius: 10rem; */
+    /* color:  #fe55bf; */
+    /* border-top-right-radius: 7.5rem;
+    border-bottom-left-radius: 7.5rem; */
+    border-radius: 7.5rem 7.5rem 0 7.5rem;
+    box-shadow: 0px 10px 10px rgba(89, 88, 166, 0.2), 0px 20px 20px rgba(254, 85, 191, 0.1);
+  }
+  .card:hover{
+      background-color: #F0FFFF;
+      transition: background 1s ease-in-out;
+  }
+  .card__imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card__detailsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .servicesIcon{
+    height: 8rem;
+  }

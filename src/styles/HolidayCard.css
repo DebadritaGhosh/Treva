@@ -1,0 +1,38 @@
+.holidayCard{
+    max-height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem 5rem;
+    flex:1 1 auto;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 10px rgba(89, 88, 166, 0.2), 0px 20px 20px rgba(254, 85, 191, 0.1);
+}
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 0px 10px 10px rgba(89, 88, 166, 0.3), 0px 20px 20px rgba(254, 85, 191, 0.1);
+}
+.holidayImage{
+    height: 15rem;
+    width: 20rem;
+}
+.detailsContainer{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.holidayCard .detailsContainer p{
+    color: #fe55bf;
+}
+.holidayCard .detailsContainer h5{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
